@@ -1,0 +1,23 @@
+{
+  "name": "hotel-booking-app",
+  "version": "1.0.0",
+  "description": "This is a modify line made in vim as a test.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelFloresM/hotel-booking-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelFloresM/hotel-booking-app/issues"
+  },
+  "homepage": "https://github.com/AngelFloresM/hotel-booking-app#readme",
+  "dependencies": {
+    "snowpack": "^3.8.8"
+  }
+}
