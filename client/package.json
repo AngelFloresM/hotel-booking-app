@@ -11,15 +11,15 @@
     "@types/react": "^17.0.34",
     "@types/react-dom": "^17.0.11",
     "axios": "^0.24.0",
-    "dotenv": "^8.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-dotenv": "^0.1.3",
     "react-scripts": "4.0.3",
     "typescript": "^4.4.4",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-dotenv && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -41,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "react-dotenv": {
+    "whitelist": ["X_RAPIDAPI_KEY"]
   }
 }
