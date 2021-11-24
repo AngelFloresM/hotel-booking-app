@@ -1,6 +1,8 @@
 import React, { MouseEvent, useState, useEffect } from "react";
 import "./App.css";
 import axios, { AxiosResponse, AxiosError, AxiosRequestConfig } from "axios";
+import dotenv from 'dotenv'
+dotenv.config()
 
 const options: AxiosRequestConfig = {
   method: "GET",
@@ -8,7 +10,7 @@ const options: AxiosRequestConfig = {
   params: { q: "Seattle" },
   headers: {
     "x-rapidapi-host": "priceline-com.p.rapidapi.com",
-    "x-rapidapi-key": "e036230438mshd38f8142450c431p135b4fjsndb7c9a568923",
+    "x-rapidapi-key": process.env.X_RAPIDAPI_KEY as string,
   },
 };
 
