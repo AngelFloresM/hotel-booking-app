@@ -1,5 +1,6 @@
 import React, { MouseEvent, useState } from 'react';
 import './App.css';
+import Home from './components/Home'
 
 function App() {
   const [count, setCount] = useState<number>(0)
@@ -14,6 +15,7 @@ function App() {
       <h1>Este es un Header</h1>
       <p>{count}</p>
       <button className="addBtn" onClick={changeCount}>Add</button>
+      <Home/>
     </div>
   );
 }
